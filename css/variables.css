@@ -1,0 +1,66 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/4571adf8e6d8270ea61a4f43a3ef31d2?family=Departure+Mono);
+@import url(//db.onlinewebfonts.com/c/55060f0828b456a82324a0d64fa1b640?family=JetBrains+Mono);
+
+/*
+@font-face {
+  font-family: "";
+  font-style: normal;
+  font-weight: normal;
+  src: url("") format(''); // woff2, woff, truetype, opentype, embedded-opentype, svg
+}
+*/
+
+/* Variables */
+
+:root {
+    /* Global */
+    --background-color: #ece5dd;
+    --selection-background-color: #00aa00;
+    --selection-color: #ffffff;
+    --text-color: #664444;
+    --text-font-family: "Quicksand";
+    --text-font-weight: 600;
+    --text-header-font-weight: 700;
+    --text-link-color: #00aa00;
+    --text-link-hover-color: #ff00aa;
+
+    /* Layout */
+    --line-color: #664444;
+
+    /* Components */
+
+    /* Brand */
+    --brand-text-1-size: 4.8rem;
+    --brand-text-2-size: 1.0rem;
+
+    /* Navigation */
+    --navigation-background-color-1: none;
+    --navigation-background-color-2: none;
+    --navigation-border-width: 1px;
+    --navigation-border-style: solid;
+    --navigation-border-color: #664444;
+    --navigation-text-color: #664444;
+    --navigation-text-font-weight: bold;
+    --navigation-hover-background-color-1: #00aa00;
+    --navigation-hover-background-color-2: #00aaff;
+    --navigation-hover-border-width: 1px;
+    --navigation-hover-border-style: none;
+    --navigation-hover-border-color: #000000;
+    --navigation-hover-text-color: #ffffff;
+    --navigation-hover-text-font-weight: bold;
+    --navigation-active-background-color-1: #00aa00;
+    --navigation-active-background-color-2: #00aaff;
+    --navigation-active-border-width: 1px;
+    --navigation-active-border-style: none;
+    --navigation-active-border-color: #000000;
+    --navigation-active-text-color: #ffffff;
+    --navigation-active-text-font-weight: bold;
+
+    /* Icon Buttons */
+
+    --icon-button-size: 4.8rem;
+    --icon-button-gap: 3.2rem;
+}

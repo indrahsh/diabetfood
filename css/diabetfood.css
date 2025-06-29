@@ -1,0 +1,27 @@
+h1,
+h2 {
+    background: linear-gradient(90deg, #00aa00, #00aaff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+    /* Fix linear gradient color widths. */
+    display: inline-block;
+}
+
+/* Fix inline-block alignments. */
+div#brand,
+div#brand>h1,
+div#intro,
+div#intro>h1 {
+    text-align: center;
+}
+
+div.line {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #00aa00 50%, #00aaff 75%, rgba(0, 0, 0, 0));
+}
+
+div.content-title {
+    text-align: center;
+}

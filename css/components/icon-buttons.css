@@ -1,0 +1,9 @@
+ul.icon-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--icon-button-gap);
+}
+
+ul.icon-buttons>li>a>img {
+    width: var(--icon-button-size);
+}
